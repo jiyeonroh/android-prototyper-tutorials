@@ -18,7 +18,7 @@ public class Subject {
      * 현재 직원들의 정보를 출력할 것
      *
      * 관리자 아이디는 admin
-     * 관리자 패스워드는 admin 으로 작성할 것
+     * 관리자 패스워드는 1234 으로 작성할 것
      *
      * 문자열 비교는 "문자열".equals(String 변수) 로 해야한다.
      * 검색도 공부다. 인터넷 검색을 통해서 사용법을 익혀볼 것.
@@ -26,18 +26,18 @@ public class Subject {
     public static void main(String[] args) {
         // 직원 데이터
         // 직원 1
-        String employee1Name = "김경만";
-        String employee1Age = "25";
+        String employee1Name = "홍길동";
+        int employee1Age = 25;
         String employee1Position = "개발팀";
 
         // 직원 2
-        String employee2Name = "전일주";
-        String employee2Age = "24";
+        String employee2Name = "임꺽정";
+        int employee2Age = 24;
         String employee2Position = "개발팀 팀장";
 
         // 직원 3
-        String employee3Name = "이재목";
-        String employee3Age = "20";
+        String employee3Name = "전우치";
+        int employee3Age = 20;
         String employee3Position = "개발팀";
 
         // 콘솔을 통해 입력받을 수 있음.
