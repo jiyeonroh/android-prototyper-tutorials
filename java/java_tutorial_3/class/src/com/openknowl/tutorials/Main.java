@@ -8,11 +8,14 @@ public class Main {
         duck.setAge(2);
         duck.setName("천둥오리");
 
+        // 아래의 구문은
+        // int age = duck.getAge();
+        // System.out.println(age); 와 같다.
         System.out.println(duck.getAge());
         System.out.println(duck.getName());
 
         duck.fly();
-        duck.sound();
+        duck.screaming();
 
         // constructor
         Duck duck1 = new Duck(3, "미운오리");

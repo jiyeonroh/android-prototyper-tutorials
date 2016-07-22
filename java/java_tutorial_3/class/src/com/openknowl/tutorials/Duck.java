@@ -8,7 +8,7 @@ public class Duck {
         System.out.println(name + "이 날아올랐습니다.");
     }
 
-    public void sound() {
+    public void screaming() {
         System.out.println(name + "이 울었습니다.");
     }
 
