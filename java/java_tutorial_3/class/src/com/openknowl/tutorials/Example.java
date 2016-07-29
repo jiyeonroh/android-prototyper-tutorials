@@ -33,6 +33,10 @@ public class Example {
     static String NAME;
     static int AGE;
 
+    // 객체지향 개념은 프로그래밍을 하는데 정말 중요하다고 생각된다.
+    // 구글드라이브의 참고 ppt를 꼭 읽어보고,
+    //
+    // OOP 5대 원칙에 대해서 읽어보도록하자.
     public String getName() {
         return name;
     }
