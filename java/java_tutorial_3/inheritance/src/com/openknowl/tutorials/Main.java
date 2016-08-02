@@ -17,7 +17,7 @@ public class Main {
         // 자기 자신의 인스턴스를 교체할 수 없음.
         // 여러 방법으로 우회할 수는 있으나 ..
         // 개념 공부만을 위해 일단 이렇게 구현.
-        pikachu2 = ((Evolutionable) pikachu2).evolution();
+        pikachu2 = ((Evolvable) pikachu2).evolution();
 
         System.out.println(pikachu2);
 
