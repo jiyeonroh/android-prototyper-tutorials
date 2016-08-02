@@ -1,6 +1,6 @@
 package com.openknowl.tutorials;
 
-public class Pikachu extends Pocketmon implements Evolutionable {
+public class Pikachu extends Pocketmon implements Evolvable {
 
     public Pikachu() {
         super("피카츄");
